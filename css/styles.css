@@ -8,7 +8,7 @@ body{
 /*Inicio Cabecera*/
 .nav{
     width: auto;
-    background-image: url(img/cabecero.jpg);
+    background-image: url(/dev/asset/img/cabecero.jpg);
     background-size:cover;
     background-position:center;
     padding: 5px 0;

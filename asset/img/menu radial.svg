@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   sodipodi:docname="menu radial"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     showgrid="false"
+     inkscape:zoom="1.3715938"
+     inkscape:cx="331.00179"
+     inkscape:cy="534.05024"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       id="grid12"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458334"
+       empcolor="#3f3fff"
+       empopacity="0.25098039"
+       color="#3f3fff"
+       opacity="0.1254902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch12"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="swatch11"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch12"
+       id="linearGradient12"
+       x1="19.029869"
+       y1="142.97002"
+       x2="193.71943"
+       y2="142.97002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch12"
+       id="linearGradient12-9"
+       x1="19.029869"
+       y1="142.97002"
+       x2="193.71944"
+       y2="142.97002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch12"
+       id="linearGradient12-9-2"
+       x1="19.029869"
+       y1="142.97002"
+       x2="193.71944"
+       y2="142.97002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch12"
+       id="linearGradient12-9-2-1"
+       x1="19.029869"
+       y1="142.97002"
+       x2="193.71944"
+       y2="142.97002"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1">
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient12);stroke-width:2.40001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+       id="path10"
+       cx="105"
+       cy="148.5"
+       r="78.799995" />
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient12-9);stroke-width:2.40001;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path10-5"
+       cx="105"
+       cy="148.5"
+       r="63.799995" />
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient12-9-2);stroke-width:2.40001;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path10-5-7"
+       cx="105"
+       cy="148.5"
+       r="48.799995" />
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient12-9-2-1);stroke-width:2.40001;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path10-5-7-3"
+       cx="105"
+       cy="148.5"
+       r="33.799995" />
+  </g>
+</svg>
