@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+/*Inicio Cabecera*/
+.nav{
+    width: auto;
+    background-image: url(/dev/asset/img/cabecero.jpg);
+    background-size:cover;
+    background-position:center;
+    padding: 5px 0;
+}
+
+.menu{
+    justify-content: center;
+    font-size: 1em;
+    list-style: none;
+    display: flex;
+    margin-right: 1.5em;
+}
+
+.menu li a  {
+    color: #000000;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.menu li a:hover {
+    background-color: #555;
+    color:#eee;
+    border-radius: 4px;
+}
+/*Fin Cabecera*/
+/*Inicio Contendor*/
+
+.container{
+    display:inline; 
+}
+
+.container_box1{
+    float: left;
+}
+
+.container_box2{
+    
+}
+
+.menu_izq{
+    font-size: 1em;
+    list-style: none;
+    margin-right: 30px;
+}
+
+li{
+    padding: 25px;
+    text-align: center;
+}
+
+.menu_izq li a  {
+    color: #000000;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.menu_izq li a:hover {
+    background-color: #555;
+    color:#eee;
+    border-radius: 4px;
+}
+
+
+
+h1,h2{
+    text-align: left;
+    font-family:cursive;
+    font-size: 2em;
+}
+
+h2,p{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+p{
+    font-size: 1em;
+}

@@ -1,89 +1,246 @@
+@font-face{
+    font-family:Times;
+    src: url("../fonts/times.ttf") format("truetype"); 
+}
+
 body{
-    margin: 0;
-    padding: 0px;
-    background-color: #eee;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
-}
-/*Inicio Cabecera*/
-.nav{
-    width: auto;
-    background-image: url(/dev/asset/img/cabecero.jpg);
-    background-size:cover;
-    background-position:center;
-    padding: 5px 0;
+    margin:0;
+    padding:0
 }
 
-.menu{
-    justify-content: center;
-    font-size: 1em;
-    list-style: none;
-    display: flex;
-    margin-right: 1.5em;
+main{
+    font-family:Times;
 }
 
-.menu li a  {
-    color: #000000;
-    text-decoration: none;
-    margin: 30px;
+nav{
+    background-color:#f5a844;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:2px;
+    height:70px;
 }
 
-.menu li a:hover {
-    background-color: #555;
-    color:#eee;
-    border-radius: 4px;
-}
-/*Fin Cabecera*/
-/*Inicio Contendor*/
-
-.container{
-    display:inline; 
-}
-
-.container_box1{
-    float: left;
-}
-
-.container_box2{
+.enlaces{
+    display: none;
     
 }
 
-.menu_izq{
-    font-size: 1em;
-    list-style: none;
-    margin-right: 30px;
+.enlaces_mq{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    z-index:1;
+    background-color: grey;
+    top: 50px;
+    right: 5px;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
 }
 
-li{
-    padding: 25px;
+a:hover{
+    background-color:#f5a84455;
+    border-radius: 5px;;
+}
+
+.a_mq{    
+    padding:5px;
+    text-align: center;
+    text-decoration:none;
+    color:#fff;
+
+}
+a{
+    text-decoration:none;
+    color:#bc5942;
+}
+
+
+nav .burger img{
+    width:50%;
+    cursor: pointer;
+}
+
+
+.box1{
+    background-image: url("../img/granos.jpg");
+    background-size:cover;
+    background-position-y: center;
+    border-radius:5px;
+    padding:5px 1px 5px 1px;
+    margin:2px;
+}
+
+.presentacion,.bienvenida{
+    border-radius:10px;
+    color:#ffffff;
+    font-size:1.10em;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+}
+
+.box2{
+    background-image: url("../img/granos2.jpg");
+    background-size:cover;
+    background-position-y: center;
+    border-radius:5px;
+    padding:5px 1px 5px 1px;
+    margin:5px 2px 5px 2px;
+}
+
+.texto1,.texto2{
+    border-radius:10px;
+    color:#ffffff;
+    font-size:1.10em;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+
+}
+
+.box3{
+    background-image: url("../img/entrada.jpg");
+    background-size:cover;
+    background-position-y: center;
+    border-radius:5px;
+    padding:5px 1px 5px 1px;
+    margin:5px 2px 5px 2px;    
+}
+
+
+.texto3{
+    border-radius:10px;
+    background-color: #ffffff;
+    opacity: 0.75;
+    color:#362500;
+    font-size:2em;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+    
+}
+
+.boxboton{
+    text-align: center;
+}
+.boton{
+    background-color:#f5a844;
+    border-radius: 15px;
+    border:none;
+    font-size: 1.50em;
+    border:1px solid black;
+    cursor:pointer;
+    transition:100ms ease-in-out;
+    padding:15px;
+}
+
+.boton:active{
+    transform: scale(0.90);
+}
+
+footer{
+    background-color:#f5a844;
+    border-radius:10px;
+    display:block;
     text-align: center;
 }
 
-.menu_izq li a  {
-    color: #000000;
-    text-decoration: none;
-    margin: 30px;
+.botones{
+    display: flex;
+    justify-content:center;
+    font-size: 0.7em;
+    padding: 20px 0 10px 0 ; 
 }
 
-.menu_izq li a:hover {
-    background-color: #555;
-    color:#eee;
-    border-radius: 4px;
+.botones a{
+    text-decoration:none;
+    color:#bc5942;
 }
 
-
-
-h1,h2{
-    text-align: left;
-    font-family:cursive;
-    font-size: 2em;
+.img612{
+    display:none;
 }
 
-h2,p{
-    font-size: 0.9em;
-    text-align: center;
+@media only screen and (min-width:400px){
+    .box1,.box2{
+        display:flex;
+    }
+
 }
 
-p{
-    font-size: 1em;
+@media only screen and (min-width:800px){
+
+    .box1,.box2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        background-image: none;
+        background-color:antiquewhite;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .box2{
+        direction: rtl;
+    }
+
+    .img612{
+        display:inline;
+        width:100%;
+        margin: 10px;
+        border-radius:10px;
+    }
+
+    .burger{
+        display:none;
+    }
+
+    .enlaces{
+        display:flex;
+        margin-right:20%;
+    }
+
+
+    nav{
+        display: flex;
+        background-image: url(../img/cabecero.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+
+    nav .enlaces a {
+        margin:15px;
+        font-size: 1.25em;
+    }
+
+
+    .presentacion,.bienvenida,.texto1,.texto2{
+        color:#222;
+    }
+
+    .logohead{
+        margin-left:10%;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    main{
+        background-color: #f5f5f5;
+    }
+    .cajapadre{margin:auto;
+        width: 1000px;
+}
+
+    nav{
+        background-size:100%;
+}
+
+    .box3{
+        background-size: auto;
+    }
+
+
 }
